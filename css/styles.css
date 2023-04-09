@@ -1,0 +1,417 @@
+
+/**
+  |============================
+  | Colors
+  |============================
+*/
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+
+/**
+  |============================
+  | Fonts
+  |============================
+*/
+  --primary-font: Roboto, sans-serif;
+  --secodary-font: Raleway, sans-serif;
+  
+  /**
+    |============================
+    | Text colors
+    |============================
+  */
+  --main-txt-cl: #434455;
+  --light-txt-cl: #2e2f42;
+  --accent-txt-cl:#4d5ae5;
+  --navi-focus-cl:#404BBF;
+  --mail-txt-cl: #434455;
+  --white-txt-cl: #ffffff;
+  --footer-txt-cl:#f4f4fd;
+  /**
+    |============================
+    | BG Colors
+    |============================
+  */
+
+  --background: #2e2f42;
+  --background-btn:#4d5ae5;
+  --bck-clr-main:#ffffff;
+}
+
+
+/* RESET */
+.list{
+list-style: none;
+}
+
+.decoration{
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+}
+
+.adress-header{
+  font-style: normal
+}
+/**
+  |============================
+  | Body section
+  |============================
+*/
+
+.body{
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--main-txt-cl);
+  background-color: var(--bck-clr-main);
+
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.header-web {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-txt-cl);
+}
+
+.header-studio {
+  color: var(--light-txt-cl);
+}
+
+.header-link-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--light-txt-cl);
+  font-family: var(--secodary-font);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-txt-cl);
+
+}
+.header-link:hover{
+  color: #404bbf;
+}
+.header-link:focus{
+  color:#404bbf;
+}
+
+.adress-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.adress-mail:hover{
+  color: #404bbf;
+}
+.adress-mail:focus{
+  color: #404bbf;
+}
+
+
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero {
+  background-color: var(--background);
+}
+
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+
+.hero-btn {
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+
+.hero-btn:focus{
+background-color: #404BBF;
+}
+.hero-btn:hover{
+  background-color: #404BBF;
+}
+
+/**
+  |============================
+  | Benefits section
+  |============================
+*/
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--light-txt-cl);
+}
+
+.benefits-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-family: var(--primary-font);
+color: var(--main-txt-cl);
+}
+
+
+
+/**
+  |============================
+  | What are we doing section
+  Images
+  |============================
+*/
+
+.img-section {}
+
+.img-section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--light-txt-cl);
+}
+
+.img-section-item {}
+
+.img-section-img {}
+
+
+/**
+  |============================
+  | Our team section
+  |============================
+*/
+
+.section-team {
+  background-color:#F4F4FD ;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--light-txt-cl);
+}
+
+.team-list {}
+
+.team-item {
+background-color: #FFFFFF;
+}
+
+.team-img {}
+
+.team-headline {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--light-txt-cl);
+}
+
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
+}
+
+/**
+  |============================
+  | Footer 
+  |============================
+*/
+.footer {
+  background-color: var(--background);
+}
+
+.footer-web {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: var(--accent-txt-cl);
+font-family: var(--secodary-font);
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.footer-studio {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color:var(--footer-txt-cl);
+font-family:var(--secodary-font);
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-text {
+font-size: 16px;
+line-height: 1.2;
+font-family:var(--primary-font);
+color: var(--footer-txt-cl);
+}
+
+
+
+/**
+  |============================
+  | Portfolio page
+  |============================
+*/
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.adress-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+
+.adress-mail:hover {
+  color: #404bbf;
+}
+
+.adress-mail:focus {
+  color: #404bbf;
+}
+
+.adress-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+
+.adress-tel:hover {
+  color: #404bbf;
+}
+
+.adress-tel:focus {
+  color: #404bbf;
+}
+
+/**
+  |============================
+  | Buttons section
+  |============================
+*/
+.buttons-menu {}
+
+.buttons-menu-list {
+
+}
+
+.buttons-menu-item {
+}
+
+.buttons-menu-title {}
+
+.buttons-menu-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-txt-cl);
+  background-color: var(--footer-txt-cl);
+  cursor: pointer;
+}
+
+.buttons-menu-btn:hover {
+color: #FFFFFF;
+}
+
+.buttons-menu-btn:focus {
+  color: #FFFFFF;
+}
+
+.buttons-menu-btn:hover {
+background-color:#404BBF;
+}
+
+.buttons-menu-btn:focus {
+  background-color: #404BBF;
+}
+
+
+
+/**
+  |============================
+  | Images sectiom
+  |============================
+*/
+
+.images-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--light-txt-cl);
+}
+
+.images-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
+}
