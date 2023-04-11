@@ -84,7 +84,7 @@ p {
   margin: 0;
 }
 
-.img{
+img{
   display: block;
 }
 .visually-hidden {
@@ -307,10 +307,6 @@ width: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
-.benefits-items {
-  padding-bottom: 120px;
-}
-
 
 .benefits-title {
   font-weight: 500;
@@ -341,6 +337,10 @@ color: var(--main-txt-cl);
 .img-section {
   display: flex;
   gap: 24px;
+}
+
+.img-section-gallery {
+  padding-bottom: 120px;
 }
 
 .img-section-title {
